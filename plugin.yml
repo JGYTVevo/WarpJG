@@ -1,0 +1,24 @@
+name: WarpJG
+main: WarpJG\Main
+api: [3.0.0]
+version: 1.0.0
+author: JGYTVevo
+ warp:
+  description: "Allow teleport player to the world"
+  
+ addwarp:
+  description: "Add warp."
+  permission: add.warp
+  
+ delwarp:
+  description: "Delete warp."
+  permission: delete.warp
+  
+permissions:
+ add.warp:
+  default: op
+  description: "Add Warp permission."
+  
+ delete.warp:
+  default: op
+  description: "Delete Warp permission."
