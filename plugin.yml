@@ -1,5 +1,5 @@
 name: WarpJG
-main: WarpJG\Main
+main: WarpJG\WarpJG
 api: [3.0.0]
 version: 1.0.0
 author: JGYTVevo
